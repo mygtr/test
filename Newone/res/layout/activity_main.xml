@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+     >
+ <TextView 
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="20dp"
+        android:text="@string/message"
+        android:textSize="20dip"
+        />
+ <TextView
+     	android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"
+        android:text="@string/number_original"
+        android:textSize="20dip"
+     />
+
+ <LinearLayout
+    android:id="@+id/linearLayout"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/number"
+    android:gravity="center"
+    android:padding="20dip">
+    <Button
+      android:id="@+id/time_down"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/time_down"
+      android:textSize="50dip" />
+    <TextView
+      android:id="@+id/time"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/time_original"
+      android:textSize="50dip"
+      android:padding="10dip" />
+    <Button
+      android:id="@+id/time_up"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/time_up"
+      android:textSize="50dip" />
+  </LinearLayout>
+ <Button
+    android:id="@+id/start"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/job_spinner"
+    android:text="@string/start" 
+    android:textSize="20dip"
+   /> 
+   <Spinner 
+     android:id="@+id/job_spinner"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/linearLayout"
+     
+     /> 
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">Newone</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="menu_add_jobs">Add job types</string>
+    <string name="menu_clear_count">Clear count value</string>
+    <string name="menu_delete_jobs">Delete job types</string>
+    
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="number_original">None</string>
+    <string name="message">Jobs</string>
+    <string name="time_down">-</string>
+    <string name="time_up">+</string>
+    <string name="time_original">0:00</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="done">Done</string>
+    
+    <string name="menu_save_jobs">Save jobs</string>
+    
+    <string name="title_activity_addjobs">AddJobsActivity</string>
+    
+    <string name="job_type_label">Job Type: </string>
+    <string name="job_time_label">Job Time: </string>
+    
+    <string name="invalid_job_title">Job can not be saved !</string>
+    <string name="invalid_job_message">Enter the job type !</string>
+    
+    <string name="save_job_success">%s job has been saved !</string>
+    
+    <string name="title_activity_deletejobs">DeleteJobsActivity</string>
+    <string name="delete">Delete</string>
+    
+    <string name="delete_job_success">%s job has been deleted !</string>
+    
+    <string name="delete_job_failed">%s job can not be deleted !</string>
+
+</resources>
